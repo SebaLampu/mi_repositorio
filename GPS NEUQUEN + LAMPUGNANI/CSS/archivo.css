@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&family=Pacifico&family=Rubik+Beastly&display=swap')
+
+
+
+
+li a {
+    color:rgb(204, 233, 38);
+}
+.fondoamarillo {
+    background-color: rgb(231, 235, 21);
+}
+li {
+    color:slateblue
+}
+#colorgreen {
+    color:green
+}
+
+/* ESTE ES UN COMENTARIO */
+ul {
+    list-style-type: none;
+}
+.negrita {
+    font-weight: bold;
+}
+.normal {
+    font-style: normal;
+}
+.italica {
+    font-style: italic;
+}
+.textogrande {
+    font-size: 20px;
+}
+.textorelativo {
+    font-size: 200%;
+}
+.impact {
+    font-family: Impact, sans-serif;
+}
+.comicsans { 
+    font-family: "comic sans MS",sans-serif;
+}
+.centrar {
+    text-align: center;
+}
+.aLaDerecha {
+    text-align: right;
+}
+.interlineado {
+    line-height: 1.6;
+}
+.subrayado {
+    text-decoration: noen;
+}
+.tachado {
+    text-decoration: line-through;
+}
+/*body {
+    background-color: grey;
+}*/
+/*body {
+    background-image: url(../logo.PNG);
+}*/
+body {
+    background-image: url(../logo.png); background-repeat: no-repeat; background-size:unset 
+}
+/*ALGO ESTA MAL EN PARALLAX, LUEGO VER*/
+.parallax{
+    background-image: url(../IMAGEN\ GEODAC.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    max-width: 100%;
+    position: relative;
+}
+
+P {font-family: 'Oswald', sans-serif;}
+li {
+    font-family: 'Oswald', sans-serif;       
+}
+
+
+/*PRACTICA MODELO BEM*/
+.article {
+    background-color: yellow;
+}
+.h1 {
+    font-size: 200%; font-family: monospace;
+}
+.p{
+    font-size: 16px;
+}

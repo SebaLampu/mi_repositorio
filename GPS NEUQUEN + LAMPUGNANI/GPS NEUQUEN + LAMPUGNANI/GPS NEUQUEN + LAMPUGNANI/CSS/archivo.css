@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Pacifico&display=swap');
+
+.parrafo { 
+    color:black;
+    font-family: 'Abel', sans-serif;
+    line-height: 1.5;
+}
+li a {
+    color:rgb(17, 0, 248);
+}
+.fondoamarillo {
+    background-color: rgb(231, 235, 21);
+}
+li {
+    color:blue
+}
+#colorgreen {
+    color:green
+}
+#negrita{
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+}
+.negrita {
+    font-weight: bold;
+}
+.textoGrande {
+    font-size: 20px;
+}
+.comicSans { 
+    font-family: "comic sans MS",sans-serif;
+}
+.centrar {
+    text-align: center;
+}
+.interlineado {
+    line-height: 1.2;
+}
+body {
+    background-image: url(../logo.png); background-repeat: no-repeat; background-size:unset 
+}
+/*ALGO ESTA MAL EN PARALLAX, LUEGO VER*/
+.parallax{
+    background-image: url(../IMAGEN\ GEODAC.jpg);
+
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 20rem;
+    max-width: 100%;
+    position: relative;
+}
+
+
+/*PRACTICA MODELO BEM*/
+.article {
+    background-color: yellow;
+}
+.h1 {
+    font-size: 200%; font-family: monospace;
+}
+.p{
+    font-size: 30px;
+}
+
+.boxmodel {
+    background-color: aqua;
+    width: 500px;
+    /*Ancho de la caja*/
+    height: 200px;
+    /*Alto de la caja*/
+    overflow: scroll;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border-top: inset 5px blue;
+    border-right:inset 10px red;
+    border-bottom:inset 15px green;
+    border-left:inset 20px black;     
+}
+

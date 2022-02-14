@@ -1,0 +1,16 @@
+CSS:
+
+.textorelativo {
+    font-size: 200%;
+}
+
+.impact {
+    font-family: Impact, sans-serif;
+}
+.subrayado {
+    text-decoration: none;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
